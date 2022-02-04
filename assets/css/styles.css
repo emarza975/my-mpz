@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #598392;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  color: #eff6e0;
+}
+body .container {
+  width: 100%;
+}
+body .container .place {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+body .container .place .foto {
+  width: 25%;
+}
+body .container .place .story {
+  width: 75%;
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+body a {
+  text-decoration: none;
+  color: #eff6e0;
+}
+body a:hover {
+  background-color: #aec3b0;
+}
+
+table .stars {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 5px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+section h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+section p {
+  font-size: 1rem;
+}
+
+#head-page h1 {
+  padding-top: 30px;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+#head-page img {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#bio .place {
+  flex-direction: row-reverse;
+}
+
+#portfolio .place {
+  flex-direction: row-reverse;
+}
+
+#contact-me .story {
+  padding-left: 25px;
+}
+
+nav {
+  height: 80px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  left: 10px;
+}
+nav img {
+  display: flex;
+  justify-content: space-around;
+  width: 3rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+form .form-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: space-around;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+form .form-row input, form .form-row textarea, form .form-row button {
+  background-color: #eff6e0;
+  color: #124559;
+}
+form .form-row label {
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+form .form-row input {
+  height: 25px;
+  width: 50%;
+  border: 1px solid #eff6e0;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+form .form-row textarea {
+  width: 50%;
+  border: 1px solid #eff6e0;
+  border-radius: 30px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+}
+form .form-row .instructions {
+  font-size: 0.8rem;
+}
+form .form-row button {
+  width: 25%;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .social {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .social img {
+  display: flex;
+  justify-content: space-around;
+  width: 3rem;
+  margin: 10px;
+  padding: 10px;
+}
+footer .disclaimer {
+  font-size: 0.5rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 450px) {
+  body {
+    width: 95%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,65 @@
+
+section {
+    // border: 2px solid $teal-blue;
+    // border-radius: 50px;
+    // height:600px;
+    margin: 5px;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+
+        h1 {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+
+        }
+
+        p {
+            font-size: 1rem;
+        }
+}
+
+#head-page {
+
+    h1 {
+        padding-top: 30px;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    img {
+
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+
+
+    }
+}
+
+#bio {
+
+    .place {
+        flex-direction: row-reverse;
+
+    }
+}
+
+#portfolio {
+
+
+    .place {
+        flex-direction: row-reverse;
+
+    }
+}
+
+#contact-me {
+    .story {
+        padding-left: 25px;
+    }
+}

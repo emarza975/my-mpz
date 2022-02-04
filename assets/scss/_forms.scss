@@ -1,0 +1,77 @@
+form {
+
+
+    .form-row {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: space-around;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: $font-stack;
+
+
+
+
+        input, textarea, button {
+            background-color: $beige;
+            color: $midnight-green;
+
+        }
+        label {
+            width: 25%;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        input {
+            height: 25px;
+            width: 50%;
+
+            border: 1px solid $beige;
+            border-radius: 30px;
+
+            text-align: center;
+
+            display: flex;
+            justify-content: flex-end;
+
+        }
+
+        textarea {
+
+            width: 50%;
+
+          border: 1px solid $beige;
+          border-radius: 30px;
+
+          min-height: 200px;
+          margin-bottom: 10px;
+          padding: 7px;
+          resize: none;
+
+
+        }
+
+        .instructions {
+            font-size: 0.8rem;
+        }
+
+
+        button {
+            width: 25%;
+            height: 40px;
+            margin: 0 auto;
+            border: none;
+            border-radius: 20px;
+
+        }
+
+
+    }
+
+
+
+
+}
